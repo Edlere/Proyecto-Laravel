@@ -153,15 +153,15 @@
         <hr class="star-light">
         <div class="row">
             <div class="col-lg-4 ml-auto">
-                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                <p>Este sistema es desarrollado por alumnos de la Universidad del Santa como parte del curso del CECOMP.</p>
             </div>
             <div class="col-lg-4 mr-auto">
-                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <p>El sistema esta basado en los ultimos estandares web.</p>
             </div>
             <div class="col-lg-8 mx-auto text-center">
-                <a href="#" class="btn btn-lg btn-outline">
-                    <i class="fa fa-download"></i>
-                    Download Theme
+                <a href="http://uns.edu.pe/" class="btn btn-lg btn-outline">
+                    <i class="fa fa-border"></i>
+                    Pagina UNS
                 </a>
             </div>
         </div>
@@ -171,7 +171,7 @@
 <!-- Contact Section -->
 <section id="contact">
     <div class="container">
-        <h2 class="text-center">Contact Me</h2>
+        <h2 class="text-center">Contactanos</h2>
         <hr class="star-primary">
         <div class="row">
             <div class="col-lg-8 mx-auto">
@@ -180,36 +180,36 @@
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
-                            <label>Name</label>
-                            <input class="form-control" id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name.">
+                            <label>Nombre</label>
+                            <input class="form-control" id="Nombre" type="text" placeholder="Nombre" required data-validation-required-message="Please enter your name.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
-                            <label>Email Address</label>
-                            <input class="form-control" id="email" type="email" placeholder="Email Address" required data-validation-required-message="Please enter your email address.">
+                            <label>Email</label>
+                            <input class="form-control" id="email" type="Email" placeholder="Email" required data-validation-required-message="Please enter your email address.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
-                            <label>Phone Number</label>
-                            <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required data-validation-required-message="Please enter your phone number.">
+                            <label>Numero de telefono</label>
+                            <input class="form-control" id="phone" type="tel" placeholder="Numero de telefono" required data-validation-required-message="Please enter your phone number.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
-                            <label>Message</label>
-                            <textarea class="form-control" id="message" rows="5" placeholder="Message" required data-validation-required-message="Please enter a message."></textarea>
+                            <label>Telefono</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <br>
                     <div id="success"></div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Send</button>
+                        <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -223,12 +223,12 @@
         <div class="container">
             <div class="row">
                 <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
+                    <h3>Direccion</h3>
+                    <p>Bellamar
+                        <br>Sn numero</p>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
+                    <h3>Biblioteca Laravel</h3>
                     <ul class="list-inline">
                         <li class="list-inline-item">
                             <a class="btn-social btn-outline" href="#">
@@ -258,8 +258,8 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>About Freelancer</h3>
-                    <p>Freelance is a free to use, open source Bootstrap theme created by
+                    <h3>Web</h3>
+                    <p>Tema Bootstrap creado por
                         <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                 </div>
             </div>
@@ -269,7 +269,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Your Website 2017
+                    Copyright &copy; Biblioteca Laravel 2017
                 </div>
             </div>
         </div>
@@ -320,7 +320,7 @@
                             </ul>--->
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                                 <i class="fa fa-times"></i>
-                                Close</button>
+                                Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -363,7 +363,7 @@
                             </ul> -->
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                                 <i class="fa fa-times"></i>
-                                Close</button>
+                                Cerrar</button>
                         </div>
                     </div>
                 </div>
@@ -407,7 +407,7 @@
                             </ul>  -->
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                                 <i class="fa fa-times"></i>
-                                Close</button>
+                                Cerrar</button>
                         </div>
                     </div>
                 </div>
