@@ -36,14 +36,30 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    <a class="nav-link js-scroll-trigger" href="#about">Acerca de</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
                 </li>
+                @if (Auth::guest())
+                 <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" href="{{url('/login')}}">{{trans('adminlte_lang::message.login')}} </a>
+                 </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="{{url('/register')}}">{{trans('adminlte_lang::message.register')}}  </a>
+                    </li>
+
+                    @else
+
+                    <li class="nav-item">
+                        <a href="/home">{{Auth::user()-> name}}</a>
+                    </li>
+
+
+                @endif
             </ul>
         </div>
     </div>
@@ -56,7 +72,7 @@
         <div class="intro-text">
             <span class="name">Libreria Laravel</span>
             <hr class="star-light">
-            <span class="skills">Eficiencia -Rapidez-Modernidad</span>
+            <span class="skills">Seguridad-Eficiencia-Modernidad</span>
         </div>
     </div>
 </header>
@@ -64,7 +80,7 @@
 <!-- Portfolio Grid Section -->
 <section id="portfolio">
     <div class="container">
-        <h2 class="text-center">Portfolio</h2>
+        <h2 class="text-center">Experiencia</h2>
         <hr class="star-primary">
         <div class="row">
             <div class="col-sm-4 portfolio-item">
@@ -74,7 +90,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/seguridad-web.png" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -84,7 +100,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/eficiencia.png" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -94,11 +110,10 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/modernidad.png" alt="">
                 </a>
             </div>
-            <div class="col-sm-4 portfolio-item">
-                <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+         <!--       <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
                     <div class="caption">
                         <div class="caption-content">
                             <i class="fa fa-search-plus fa-3x"></i>
@@ -126,7 +141,7 @@
                     </div>
                     <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
                 </a>
-            </div>
+            </div>  -->
         </div>
     </div>
 </section>
@@ -134,7 +149,7 @@
 <!-- About Section -->
 <section class="success" id="about">
     <div class="container">
-        <h2 class="text-center">About</h2>
+        <h2 class="text-center">Acerca de</h2>
         <hr class="star-light">
         <div class="row">
             <div class="col-lg-4 ml-auto">
@@ -281,12 +296,12 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Seguridad</h2>
                             <hr class="star-primary">
-                            <img class="img-fluid img-centered" src="img/portfolio/cabin.png" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                                <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
+                            <img class="img-fluid img-centered" src="img/portfolio/seguridad-web.png" alt="">
+                            <p>Nuesstro sistema cuenta con una seguridad de vanguardia basado en los ultimos estandares internacionales
+                                <a href="https://www.isotools.org/2015/01/05/iso-27001-seguridad-informatica-seguridad-informacion/">Normas ISO</a>.</p>
+       <!--                     <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong>
                                         <a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -302,7 +317,7 @@
                                         <a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
                                 </li>
-                            </ul>
+                            </ul>--->
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                                 <i class="fa fa-times"></i>
                                 Close</button>
@@ -325,12 +340,11 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Eficiencia</h2>
                             <hr class="star-primary">
-                            <img class="img-fluid img-centered" src="img/portfolio/cake.png" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                                <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
+                            <img class="img-fluid img-centered" src="img/portfolio/eficiencia.png" alt="">
+                            <p>La adaptabilidad es una caracteristica resaltanta en nuestro sistema.La eficiencia se logra a la optimización de recursos.</p>
+                        <!--    <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong>
                                         <a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -346,7 +360,7 @@
                                         <a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
                                 </li>
-                            </ul>
+                            </ul> -->
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                                 <i class="fa fa-times"></i>
                                 Close</button>
@@ -369,12 +383,12 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Modernidad</h2>
                             <hr class="star-primary">
-                            <img class="img-fluid img-centered" src="img/portfolio/circus.png" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                                <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
+                            <img class="img-fluid img-centered" src="img/portfolio/modernidad.png" alt="">
+                            <p>Nuestro sistema esta basado en el framework de PHP
+                                <a href="https://laravel.com/">Laravel</a>.El cual cuenta con mecanismos modernos de desarrollo web.</p>
+                            <!--<ul class="list-inline item-details">
                                 <li>Client:
                                     <strong>
                                         <a href="http://startbootstrap.com">Start Bootstrap</a>
@@ -390,7 +404,7 @@
                                         <a href="http://startbootstrap.com">Web Development</a>
                                     </strong>
                                 </li>
-                            </ul>
+                            </ul>  -->
                             <button class="btn btn-success" type="button" data-dismiss="modal">
                                 <i class="fa fa-times"></i>
                                 Close</button>
@@ -401,7 +415,7 @@
         </div>
     </div>
 </div>
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -532,7 +546,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
