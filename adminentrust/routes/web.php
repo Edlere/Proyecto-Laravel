@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('admin/Compra',['as'=>'admin/Compra', 'uses'=>'CompraController@RegistrarCompra']);
+    Route::get('admin/Vender',['as'=>'admin/Vender', 'uses'=>'VentaController@RegistrarVenta']);
 });
