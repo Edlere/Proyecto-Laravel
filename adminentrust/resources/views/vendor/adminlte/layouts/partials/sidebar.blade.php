@@ -26,6 +26,7 @@
             <li class="active"><a href="{{ url('home') }}"><i class="fa fa-square" aria-hidden="true"></i><span>{{ trans('adminlte_lang::message.home') }}</span></a></li>
             <li><a href="{{url('admin/Compra')}}"><i class="fa fa-book" aria-hidden="true"></i><span>Libros</span></a></li>
             <li><a href="{{url('admin/Vender')}}"><i class="fa fa-line-chart" aria-hidden="true"></i> <span>Vender</span></a></li>
+            <li><a href="{{url('admin/Vender')}}"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Carrito</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
