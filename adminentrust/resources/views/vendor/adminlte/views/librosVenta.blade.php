@@ -21,16 +21,20 @@ Libros
 @section('script-inicio')
 @endsection
 @section('main-content')
-<form method="POST" action="{{url('admin/Venta')}}" accept-charset="UTF-8" class="" id="RegistrarVenta">
+<form method="POST" action="{{url('admin/Vender')}}" accept-charset="UTF-8" class="" id="RegistrarVenta">
 	<input name="_token" type="hidden" value="{{ csrf_token() }}">
 	<div class="form-group row">
 		<div class="col-sm-4">
 			<label class="color-azul">Titulo:</label>
-			<input type="text" class="form-control text-center"  id="tituloLibro" name="tituloLibro"  required placeholder="" maxlength="20" value="">
+			<input type="text" class="form-control text-center"  id="tituloLibro" name="tituloLibro"  required placeholder="Moby Dick" maxlength="20" value="">
 		</div>
 		<div class="col-sm-4">
 			<label class="color-azul">Autor:</label>
-			<input type="text" class="form-control text-center"  id="nombreAutor" name="nombreAutor"  required placeholder="" maxlength="20" value="">
+			<input type="text" class="form-control text-center"  id="nombreAutor" name="nombreAutor"  required placeholder="Melville" maxlength="20" value="">
+		</div>
+		<div class="col-sm-4">
+			<label class="color-azul">Fecha:</label>
+			<input type="text" class="form-control text-center"  id="fecha" name="fecha"  required placeholder="1997-01-01" maxlength="20" value="">
 		</div>
 	</div>
 	

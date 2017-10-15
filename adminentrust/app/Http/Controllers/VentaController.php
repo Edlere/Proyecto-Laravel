@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\generos;
 use App\Models\editorial;
+use App\Models\libros;
 use Illuminate\Support\Facades\Auth as Auth;
 
 class VentaController extends Controller
@@ -15,7 +16,13 @@ class VentaController extends Controller
     	return view('adminlte::views.librosVenta',compact('generos','editoriales'));
     }
 
-    public function GuardarVenta(){
-    	
+    public function GuardarVenta(Request $request){
+    	$datos=$request->all();
+    	$resultado=libros::Guardar_Libro($datos);
+    	if($resultado){
+    		return redirect('admin/Vender');
+    	}else{
+    		return redirect('/');
+    	}
     }
 }
