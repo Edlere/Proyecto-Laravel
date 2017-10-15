@@ -1,30 +1,36 @@
 @extends('adminlte::layouts.app')
-
 @section('htmlheader_title')
-	Libros
+Libros
 @endsection
 @section('css')
 <style>
-	.panel-primary 
+	.panel-primary
 		{
-    		border-color: #00a65a;
+		border-color: #00a65a;
 		}
 </style>
 @endsection
-
 @section('script-inicio')
 @endsection
-
 @section('main-content')
-@foreach($libros as $libro)
-<div class="panel panel-default" align="center">
-	<div class="panel-body">
-		{{$libro->nombreLibro}}
-	</br>
-		Año de publicacion: {{$libro->añoPublicacion}}
-	</br>
-		<button type="button" class="btn btn-default">Agregar a carrito</button>
+<form method="POST" action="{{url('admin/Compra')}}" accept-charset="UTF-8" class="" id="AgregarCarrito">
+	<input name="_token" type="hidden" value="{{ csrf_token() }}">
+	@foreach($libros as $libro)
+	<div class="panel panel-default" align="center">
+		<div class="panel-body">
+			{{$libro->nombreLibro}}
+			<input type="hidden" class="form-control text-center"
+			id="idLibro" name="idLibro" value="{{$libro->idLibro}}">
+			</br>
+			Año de publicacion: {{$libro->añoPublicacion}}
+			</br>
+			<div class="row">
+				<div class="col-xs-12">
+					<button type="submit" id="btnAgregarCarrito" class="btn btn-success">Agregar Carrito</button>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
-@endforeach
+	@endforeach
+</form>
 @endsection

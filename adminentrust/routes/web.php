@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('admin/Compra',['as'=>'admin/Compra', 'uses'=>'CompraController@MostrarLibros']);
+    Route::post('admin/Compra',['as'=>'admin/Compra', 'uses'=>'CompraController@CargarCarrito']);
     Route::get('admin/Vender',['as'=>'admin/Vender', 'uses'=>'VentaController@RegistrarVenta']);
     Route::post('admin/Vender',['as'=>'admin/Vender', 'uses'=>'VentaController@GuardarVenta']);
     Route::get('admin/Carrito',['as'=>'admin/Carrito', 'uses'=>'CompraController@RealizarCompra']);
