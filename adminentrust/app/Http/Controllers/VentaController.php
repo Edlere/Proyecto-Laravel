@@ -3,11 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\generos;
+use App\Models\editorial;
 use Illuminate\Support\Facades\Auth as Auth;
 
 class VentaController extends Controller
 {
     public function RegistrarVenta(){
-    	return view('adminlte::views.librosVenta');
+    	$generos=generos::Listar_Generos();
+    	$editoriales=editorial::Listar_Editoriales();
+    	return view('adminlte::views.librosVenta',compact('generos','editoriales'));
+    }
+
+    public function GuardarVenta(){
+    	
     }
 }
