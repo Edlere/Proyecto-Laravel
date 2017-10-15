@@ -10,6 +10,6 @@ class libros extends Model
     public $primaryKey = 'idLibro';
     public static function Listar_Libros()
     {
-    	return libros::select("libro.idLibro as idLibro","libro.nombreLibro as nombreLibro")->get();
+    	return libros::select("libro.idLibro as idLibro","libro.nombreLibro as nombreLibro","libro.añoPublicacion as añoPublicacion")->get();
     }
 }

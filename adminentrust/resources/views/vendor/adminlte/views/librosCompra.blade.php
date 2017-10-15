@@ -40,9 +40,11 @@
 @foreach($libros as $libro)
 <div class="panel panel-default">
 	<div class="panel-body">
-		Libro
+		{{$libro->nombreLibro}}
 	</br>
-		<button type="button" class="btn btn-default">button</button>
+		Año de publicacion: {{$libro->añoPublicacion}}
+	</br>
+		<button type="button" class="btn btn-default">Agregar a carrito</button>
 	</div>
 </div>
 @endforeach
