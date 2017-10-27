@@ -201,7 +201,7 @@
                     </div>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
-                            <label>Telefono</label>
+                            <label>Mensaje</label>
                             <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
