@@ -46,7 +46,7 @@
                 </li>
                 @if (Auth::guest())
                  <li class="nav-item">
-                     <a class="nav-link js-scroll-trigger" href="{{url('/admin')}}">{{trans('login')}} </a>
+                     <a class="nav-link js-scroll-trigger" href="{{url('/login')}}">{{trans('login')}} </a>
                  </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="{{url('/register')}}">{{trans('register')}}  </a>
@@ -201,7 +201,7 @@
                     </div>
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls">
-                            <label>Mensaje</label>
+                            <label>Telefono</label>
                             <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required data-validation-required-message="Please enter a message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
