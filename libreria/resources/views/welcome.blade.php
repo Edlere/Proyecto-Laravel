@@ -46,7 +46,7 @@
                 </li>
                 @if (Auth::guest())
                  <li class="nav-item">
-                     <a class="nav-link js-scroll-trigger" href="{{url('/admin')}}">{{trans('login')}} </a>
+                     <a class="nav-link js-scroll-trigger" href="{{url('/login')}}">{{trans('login')}} </a>
                  </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="{{url('/register')}}">{{trans('register')}}  </a>
@@ -90,7 +90,8 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/seguridad-web.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/educativo.jpg" alt="">
+                      <!--img/portfolio/seguridad-web.png-->
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -100,7 +101,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/eficiencia.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/eficiencia.jpg" alt="">
                 </a>
             </div>
             <div class="col-sm-4 portfolio-item">
@@ -110,7 +111,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/modernidad.png" alt="">
+                    <img class="img-fluid" src="img/portfolio/modernidad.jpg" alt="">
                 </a>
             </div>
          <!--       <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
@@ -298,8 +299,9 @@
                         <div class="modal-body">
                             <h2>Seguridad</h2>
                             <hr class="star-primary">
-                            <img class="img-fluid img-centered" src="img/portfolio/seguridad-web.png" alt="">
-                            <p>Nuesstro sistema cuenta con una seguridad de vanguardia basado en los ultimos estandares internacionales
+                            <img class="img-fluid img-centered" src="img/portfolio/educativo.jpg" alt="">
+                            <!--educativo cambiado por seguridad-->
+                            <p>Nuestro sistema cuenta con una seguridad de vanguardia basado en los ultimos estandares internacionales
                                 <a href="https://www.isotools.org/2015/01/05/iso-27001-seguridad-informatica-seguridad-informacion/">Normas ISO</a>.</p>
        <!--                     <ul class="list-inline item-details">
                                 <li>Client:
@@ -342,7 +344,7 @@
                         <div class="modal-body">
                             <h2>Eficiencia</h2>
                             <hr class="star-primary">
-                            <img class="img-fluid img-centered" src="img/portfolio/eficiencia.png" alt="">
+                            <img class="img-fluid img-centered" src="img/portfolio/eficiencia.jpg" alt="">
                             <p>La adaptabilidad es una caracteristica resaltanta en nuestro sistema.La eficiencia se logra a la optimización de recursos.</p>
                         <!--    <ul class="list-inline item-details">
                                 <li>Client:
@@ -385,7 +387,7 @@
                         <div class="modal-body">
                             <h2>Modernidad</h2>
                             <hr class="star-primary">
-                            <img class="img-fluid img-centered" src="img/portfolio/modernidad.png" alt="">
+                            <img class="img-fluid img-centered" src="img/portfolio/modernidad.jpg" alt="">
                             <p>Nuestro sistema esta basado en el framework de PHP
                                 <a href="https://laravel.com/">Laravel</a>.El cual cuenta con mecanismos modernos de desarrollo web.</p>
                             <!--<ul class="list-inline item-details">
