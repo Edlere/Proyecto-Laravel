@@ -53,9 +53,9 @@
                     </li>
 
                     @else
-                    
+
                     <li class="nav-item">
-                        <a href="/admin">{{Auth::user()-> name}}</a>
+                        <a href="/home">{{Auth::user()-> name}}</a>
                     </li>
 
 
