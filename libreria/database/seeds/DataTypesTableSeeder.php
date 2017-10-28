@@ -54,13 +54,13 @@ class DataTypesTableSeeder extends Seeder
             ])->save();
         }
 
-        $dataType = $this->dataType('name', 'categories');
+        $dataType = $this->dataType('name', 'categorias');
         if (!$dataType->exists) {
             $dataType->fill([
-                'slug'                  => 'categories',
+                'slug'                  => 'categorias',
                 'display_name_singular' => 'Category',
-                'display_name_plural'   => 'Categories',
-                'icon'                  => 'voyager-categories',
+                'display_name_plural'   => 'Categorias',
+                'icon'                  => 'voyager-categorias',
                 'model_name'            => 'TCG\\Voyager\\Models\\Category',
                 'controller'            => '',
                 'generate_permissions'  => 1,

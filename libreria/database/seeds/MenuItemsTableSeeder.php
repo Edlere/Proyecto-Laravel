@@ -84,7 +84,7 @@ class MenuItemsTableSeeder extends Seeder
 
             $menuItem = MenuItem::firstOrNew([
                 'menu_id'    => $menu->id,
-                'title'      => 'Categories',
+                'title'      => 'Categorias',
                 'url'        => '',
                 'route'      => 'voyager.categories.index',
             ]);

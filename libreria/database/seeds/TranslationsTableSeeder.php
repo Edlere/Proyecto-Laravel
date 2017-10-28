@@ -33,13 +33,13 @@ class TranslationsTableSeeder extends Seeder
         //
         $cat = Category::where('slug', 'category-1')->firstOrFail();
         if ($cat->exists) {
-            $this->trans('pt', $this->arr(['categories', 'slug'], $cat->id), 'categoria-1');
-            $this->trans('pt', $this->arr(['categories', 'name'], $cat->id), 'Categoria 1');
+            $this->trans('pt', $this->arr(['categorias', 'slug'], $cat->id), 'categoria-1');
+            $this->trans('pt', $this->arr(['categorias', 'name'], $cat->id), 'Categoria 1');
         }
         $cat = Category::where('slug', 'category-2')->firstOrFail();
         if ($cat->exists) {
-            $this->trans('pt', $this->arr(['categories', 'slug'], $cat->id), 'categoria-2');
-            $this->trans('pt', $this->arr(['categories', 'name'], $cat->id), 'Categoria 2');
+            $this->trans('pt', $this->arr(['categorias', 'slug'], $cat->id), 'categoria-2');
+            $this->trans('pt', $this->arr(['categorias', 'name'], $cat->id), 'Categoria 2');
         }
     }
 
@@ -95,7 +95,7 @@ class TranslationsTableSeeder extends Seeder
         if ($dtp->exists) {
             $this->trans('pt', $this->arr($_tpl, $dtp->id), 'Utilizadores');
         }
-        $dtp = DataType::where($_fld, 'Categories')->firstOrFail();
+        $dtp = DataType::where($_fld, 'Categorias')->firstOrFail();
         if ($dtp->exists) {
             $this->trans('pt', $this->arr($_tpl, $dtp->id), 'Categorias');
         }
@@ -165,7 +165,7 @@ class TranslationsTableSeeder extends Seeder
             $this->trans('pt', $this->arr($_tpl, $_item->id), 'Utilizadores');
         }
 
-        $_item = $this->findMenuItem('Categories');
+        $_item = $this->findMenuItem('Categorias');
         if ($_item->exists) {
             $this->trans('pt', $this->arr($_tpl, $_item->id), 'Categorias');
         }

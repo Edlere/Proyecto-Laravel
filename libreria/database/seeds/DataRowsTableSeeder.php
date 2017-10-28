@@ -14,7 +14,7 @@ class DataRowsTableSeeder extends Seeder
         $postDataType = DataType::where('slug', 'posts')->firstOrFail();
         $pageDataType = DataType::where('slug', 'pages')->firstOrFail();
         $userDataType = DataType::where('slug', 'users')->firstOrFail();
-        $categoryDataType = DataType::where('slug', 'categories')->firstOrFail();
+        $categoryDataType = DataType::where('slug', 'categorias')->firstOrFail();
         $menuDataType = DataType::where('slug', 'menus')->firstOrFail();
         $roleDataType = DataType::where('slug', 'roles')->firstOrFail();
 
