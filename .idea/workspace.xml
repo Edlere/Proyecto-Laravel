@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff5e0cfc-d00d-44b3-8443-7e92d5b65f7b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Console/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Exceptions/Handler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Controllers/Auth/LoginController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Controllers/Auth/RegisterController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Controllers/Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Controllers/HomeController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Kernel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Middleware/EncryptCookies.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Middleware/TrimStrings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Http/Middleware/VerifyCsrfToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Providers/AppServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Providers/AuthServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Providers/BroadcastServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Providers/EventServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/Providers/RouteServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/app/User.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/artisan" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/bootstrap/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/bootstrap/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/bootstrap/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/broadcasting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/cache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/database.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/filesystems.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/mail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/queue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/services.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/session.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/config/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/factories/ModelFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_01_01_000000_add_voyager_user_fields.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_01_01_000000_create_data_types_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_01_01_000000_create_pages_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_01_01_000000_create_posts_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_02_15_204651_create_categories_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_05_19_173453_create_menu_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_10_21_190000_create_roles_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_10_21_190000_create_settings_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_11_30_135954_create_permission_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_11_30_141208_create_permission_role_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2016_12_26_201236_data_types__add__server_side.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_01_13_000000_add_route_to_menu_items_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_01_14_005015_create_translations_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_01_15_000000_add_permission_group_id_to_permissions_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_01_15_000000_create_permission_groups_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_01_15_000000_make_table_name_nullable_in_permissions_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_03_06_000000_add_controller_to_data_types_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_04_11_000000_alter_post_nullable_fields_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_04_21_000000_add_order_to_data_rows_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_07_05_210000_add_policyname_to_data_types_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/migrations/2017_08_05_000000_add_group_to_settings_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/CategoriesTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/DataRowsTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/DataTypesTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/DatabaseSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/MenuItemsTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/MenusTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/PagesTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/PermissionRoleTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/PermissionsTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/PostsTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/RolesTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/SettingsTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/TranslationsTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/UsersTableSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/VoyagerDatabaseSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/database/seeds/VoyagerDummyDatabaseSeeder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/hooks/hooks.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/all-landing.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-grid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-reboot.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-reboot.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-reboot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/freelancer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/freelancer.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/_all-skins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/_all-skins.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-black-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-black-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-black.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-blue-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-blue-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-blue.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-green-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-green-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-green.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-purple-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-purple-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-purple.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-red-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-red-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-red.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-yellow-light.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-yellow-light.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/skins/skin-yellow.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/css/toastr.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/fonts/ionicons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/503.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/app-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/arrow1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/arrow2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/avatar04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/avatar5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/boxed-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/boxed-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/cirrus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/default-50x50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/emailcall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/ico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/imagen_libreria.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/intro01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/intro02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/intro03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/item-01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/item-02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/mestro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/mobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/paypal2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/pexels6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/photo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/photo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/photo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/photo4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/cabin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/cake.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/circus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/eficiencia.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/game.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/modernidad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/safe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/seguridad-web.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/portfolio/submarine.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user1-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user2-160x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user3-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user4-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user5-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user6-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user7-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/user8-128x128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/img/visa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/app-landing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/contact_me.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/freelancer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/freelancer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/js/jqBootstrapValidation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/mail/contact_me.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/mix-manifest.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/2500.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/CHANGES.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/Readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/_all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/abstracttoolbarmodifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/aero.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/aero.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/aero@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/alpha-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/alt_insert.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/alter_buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/api.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/api_scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/appendto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/auto.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/blue@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.kr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.rs-latin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.rs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.sw.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.ua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-datepicker.zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-timepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-timepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap3-wysihtml5.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap3-wysihtml5.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap3-wysihtml5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bootstrap3-wysihtml5.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/build-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/button_order.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/button_text.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/className.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/col_filter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/collection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/collection.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/collection.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/collection_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/column-control.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/colvis.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/compact.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/complete-callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/complexHeader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/contents.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/copy document.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/copy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/copy_csv_xls.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/copy_csv_xls_pdf.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/copy_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/css_size.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/csv.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/csv_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/custom-renderer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.autoFill.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.autoFill.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.autoFill.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.autoFill.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colReorder.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colReorder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colReorder.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colReorder.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colVis.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colVis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colVis.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colVis.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.colvis.jqueryui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedColumns.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedColumns.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedColumns.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedColumns.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedHeader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedHeader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedHeader.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.fixedHeader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.keyTable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.keyTable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.keyTable.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.keyTable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.responsive.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.responsive.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.scroller.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.scroller.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.scroller.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.scroller.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.tableTools.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.tableTools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.tableTools.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dataTables.tableTools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/datafiltering.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/daterangepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/de-ch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/defaults.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dialogDefinition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/disable-child-rows.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/divreplace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/enterkey.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/events.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/exclude_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fastclick.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/file_types.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fill-both.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fill-horizontal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/filler.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fixedHeader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fixedcolumns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/flat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/flat@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fontello.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fontello.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fontello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fontello.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fontello.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/foundation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fullcalendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fullcalendar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fullpage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/fulltoolbareditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/futurico.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/futurico.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/futurico@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/github-top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/green.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/green@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/grey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/grey@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/group_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/header-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/header-separator.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/header_footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/hue-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/icheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/icon-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/index_column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/init-classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/inlineall.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/inlinebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/inlinetextarea.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/insert.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ion.rangeSlider.skinNice.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery-2.2.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery-jvectormap-1.2.2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery-jvectormap-1.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery-jvectormap-usa-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.colorhelpers.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.dataTables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.dataTables.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.dataTables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.dataTables_themeroller.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.canvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.categories.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.crosshair.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.errorbars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.errorbars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.fillbetween.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.image.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.navigate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.pie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.resize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.selection.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.stack.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.symbol.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.threshold.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.flot.time.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.inputmask.date.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.inputmask.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.inputmask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.inputmask.numeric.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.inputmask.phone.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.inputmask.regex.extensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.slimscroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.sparkline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/jqueryui.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/languages.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/large_js_source.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/left_right_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/line.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/line@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/loading-background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/magicline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/minimal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/minimal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/minimal@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/moment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/morris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/morris.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/mouseover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/multi_instance.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/multiple_tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/my_dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/navigation-tip.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/neo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/new.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/new_init.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/option.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/orange.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/orange@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/outputforflash.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/outputforflash.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/outputforflash.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/outputhtml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/outputxhtml.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pace.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/paste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pdf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pdf_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pdf_message.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/phone-be.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/phone-codes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pink.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pink@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/plug-in.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/polaris.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/polaris.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/polaris@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/predefined.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/print.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/print_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/printer.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/purple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/readonly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/realtime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/red.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/red@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/replacebyclass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/replacebycode.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/reset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/restore.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/right-column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/right_column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/rowspan.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sample.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sample.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sample.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sample_posteddata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/samples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select2.full.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select2.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select_column.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select_multi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select_os.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/select_single.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/server-side-processing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/server-side_processing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/server_side.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/show-hint.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/show-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/size_fixed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/size_fluid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sprite-skin-flat.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sprite-skin-nice.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/square.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/square.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/square@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sr-Cyrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ssp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/state_save.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/state_saving.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/step-callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/styles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/swf_path.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/tabindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/tableCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/text.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/title_callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/toolbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/toolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/toolbarmodifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/toolbartextmodifier.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/top_left_right.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/tt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/two_columns.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/two_tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/two_tables_identical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/uicolor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/uilanguages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/whole-row-control.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/xhtmlstyle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/xls.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/xls_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/yellow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/yellow@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/zIndexes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/plugins/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_bootstrap-overrides.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_contact.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_masthead.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_portfolio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/scss/freelancer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/css/bootstrap-grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/css/bootstrap-reboot.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/jquery-easing/jquery.easing.compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/jquery-easing/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/jquery-easing/jquery.easing.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/popper/popper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/popper/popper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/icons-reference.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/voyager.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/voyager.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/voyager.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/fonts/voyager.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/captain-avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/compass/documentation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/compass/hooks.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/compass/voyager-home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/helm.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/large-logo-icon-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/large-logo-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/logo-icon-light.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/logo-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/voyager-character.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/voyager-character.sketch" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/widget-backgrounds/01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/widget-backgrounds/02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/images/widget-backgrounds/03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/advlist/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/anchor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/autolink/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/autoresize/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/autosave/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/bbcode/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/charmap/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/code/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/codesample/css/prism.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/codesample/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/colorpicker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/contextmenu/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/directionality/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/emoticons/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/example/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/example/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/example_dependency/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/fullpage/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/fullscreen/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/css/giphyPopup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/giphy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/clear.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_128.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_icon_48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_logo_laser.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/giphy_logo_txt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_back.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_categories.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_heart_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_heart_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_link_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_reactions.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_sms.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/icon_twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/img/loader_purple.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/GiphySearch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/giphy_cms_ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/imagesloaded.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/jquery.xdomainrequest.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/masonry.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/html/js/newT.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/clear.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/giphyicon20px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/img/giphyiconoff20px.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/giphy/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/hr/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/image/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/imagetools/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/importcss/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/insertdatetime/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/layer/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/legacyoutput/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/link/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/lists/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/media/moxieplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/media/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/nonbreaking/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/noneditable/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/pagebreak/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/paste/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/preview/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/print/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/save/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/searchreplace/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/spellchecker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/tabfocus/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/table/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/template/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/textcolor/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/textpattern/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/toc/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/visualblocks/css/visualblocks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/visualblocks/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/visualchars/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/wordcount/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jQuery.jQTubeUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/jquery.yt_data_v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/modernizr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/mustache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/js/youtube.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/langs/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/preview.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/css/slide.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/css/slider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/js/bootstrap-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/slider/less/slider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/template/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/plugins/youtube/youtube.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/fonts/tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/skin.ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/lightgray/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/Variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/fonts/tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/skins/voyager/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/vendor/tcg/voyager/assets/js/themes/modern/theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/public/web.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/assets/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/assets/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/assets/js/components/Example.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/assets/sass/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/assets/sass/app.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/ar/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/de/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/en/auth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/en/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/en/passwords.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/en/validation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/en/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/es/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/fr/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/it/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/pt/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/pt_br/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/ru/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/tr/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/lang/zh_CN/voyager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/views/auth/login.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/views/auth/passwords/email.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/views/auth/passwords/reset.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/views/auth/register.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/views/home.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/views/layouts/app.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/resources/views/welcome.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/routes/api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/routes/channels.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/routes/console.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/routes/web.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/app/public/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/framework/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/framework/cache/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/framework/sessions/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/framework/testing/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/framework/views/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/storage/logs/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/tests/CreatesApplication.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/tests/Feature/ExampleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/tests/TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/tests/Unit/ExampleTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libreria/webpack.mix.js" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="363" />
+    <option name="y" value="-15" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Proyecto-Laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto-Laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Proyecto-Laravel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proyecto-Laravel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sige" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff5e0cfc-d00d-44b3-8443-7e92d5b65f7b" name="Default" comment="" />
+      <created>1509157079323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509157079323</updated>
+      <workItem from="1509157091726" duration="2391000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2391000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38688526" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
