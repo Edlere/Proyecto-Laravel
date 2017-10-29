@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Libreria</title>
+    <title>Sistema de Gestion Educativa</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Libreria Laravel</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">SIGE</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
             <i class="fa fa-bars"></i>
@@ -68,9 +68,9 @@
 <!-- Header -->
 <header class="masthead">
     <div class="container">
-        <img class="img-fluid" src="img/imagen_libreria.png" alt="">
+        <img class="img-fluid" src="img/educacion.png" alt="">
         <div class="intro-text">
-            <span class="name">Libreria Laravel</span>
+            <span class="name">Sistema de Gestion Educativa</span>
             <hr class="star-light">
             <span class="skills">Seguridad-Eficiencia-Modernidad</span>
         </div>
@@ -111,7 +111,7 @@
                             <i class="fa fa-search-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" src="img/portfolio/modernidad.jpg" alt="">
+                    <img class="img-fluid" src="img/portfolio/bg.jpg" alt="">
                 </a>
             </div>
          <!--       <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
@@ -229,7 +229,7 @@
                         <br>Sn numero</p>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>Biblioteca Laravel</h3>
+                    <h3>SIGE</h3>
                     <ul class="list-inline">
                         <li class="list-inline-item">
                             <a class="btn-social btn-outline" href="#">
@@ -270,7 +270,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    Copyright &copy; Biblioteca Laravel 2017
+                    Copyright &copy; SIGE 2017
                 </div>
             </div>
         </div>
@@ -387,7 +387,7 @@
                         <div class="modal-body">
                             <h2>Modernidad</h2>
                             <hr class="star-primary">
-                            <img class="img-fluid img-centered" src="img/portfolio/modernidad.jpg" alt="">
+                            <img class="img-fluid img-centered" src="img/portfolio/bg.jpg" alt="">
                             <p>Nuestro sistema esta basado en el framework de PHP
                                 <a href="https://laravel.com/">Laravel</a>.El cual cuenta con mecanismos modernos de desarrollo web.</p>
                             <!--<ul class="list-inline item-details">
