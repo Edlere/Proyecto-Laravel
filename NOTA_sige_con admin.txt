@@ -1,0 +1,1 @@
+sige_con admin esta hecho en base  de adminLTE,entrar a la ruta /alumno/create para acceder al sistema

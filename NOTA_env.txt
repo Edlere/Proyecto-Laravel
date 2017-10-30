@@ -1,3 +1,5 @@
+Libreria: contiene el aplicativo sige con voyager y su archivo .env esta conformado asi:
+
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:+zCLGZh8D2KPu/3EePSNsrtfx59PdqNrOn46B90OBEY=
